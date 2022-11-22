@@ -36,9 +36,15 @@ else if (isBestGrade)
 }
 else if (isUnbelievableGrade)
 {
-    Console.WriteLine($"Average grade of {averageGrade}. That's unbelievable!");
+    Console.WriteLine($"Average grade of {averageGrade}? That's unbelievable!");
 }
 else if (isOneTimeNiceGrade)
 {
-    Console.WriteLine($"You got one nice grade! But average grade of {averageGrade}.");
+    Console.WriteLine($"You got one nice grade! But the average is {averageGrade}.");
 }
+else
+{
+    Console.WriteLine("You simply need to work harder.");
+}
+
+Console.ReadLine();
